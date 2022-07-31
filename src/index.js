@@ -14,60 +14,10 @@ import LearnLinux from './pages/learnLinux/learnLinux';
 import RescueTheTux from './pages/rescueTheTux/home.js';
 // import UserForm from './pages/recruitment_2022/recruitment';
 
-const pages = [
-    /*{
-        title: 'Home',
-        link: '/',
-        component: <Home />
-    },
-    {
-        title: 'Events',
-        link: '/events',
-        component: <Events />
-    },
-    {
-        title: 'Learn Linux',
-        link: '/learn-linux',
-        component: <LearnLinux />
-    },*/
-    {
-        title: 'Rescue Tux',
-        link: '/',
-        component: <RescueTheTux />
-    }
-    //, {
-    //     title: 'Recruitment 2022',
-    //     link: '/recruitment',
-    //     component: <UserForm />
-    // }
-];
-
 ReactDOM.render(
-    <React.StrictMode>
-        <HashRouter basename={process.env.PUBLIC_URL}>
-            <Routes>
-                <Route
-                    path='/'
-                    element={
-                        <App pages={pages}>
-                            <Outlet />
-                        </App>
-                    }
-                >
-                    {pages.map((page, index) =>
-                        page.link === '/' ? (
-                            <Route key={index} index element={page.component} />
-                        ) : (
-                            <Route
-                                key={index}
-                                path={page.link}
-                                element={page.component}
-                            />
-                        )
-                    )}
-                </Route>
-            </Routes>
-        </HashRouter>
-    </React.StrictMode>,
-    document.getElementById('root')
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
+
