@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c000c91f.css",
-    "main.js": "/static/js/main.7f656ec7.js",
-    "static/media/speaker.jpg": "/static/media/speaker.5ded7f34107f7aeb9d68.jpg",
-    "static/media/simplifiedLinuxFamily.png": "/static/media/simplifiedLinuxFamily.02beba67fa0dcc4c45b6.png",
-    "static/media/winner-two.jpg": "/static/media/winner-two.34b6797e61df0dc47790.jpg",
-    "static/media/winner-one.jpg": "/static/media/winner-one.42dbd910470cf45dc37c.jpg",
-    "static/media/Instagram.svg": "/static/media/Instagram.f19834e51679ce931f126f2b526d11f5.svg",
-    "static/media/Discord.svg": "/static/media/Discord.27583b533952833679e4badca4e9e2a4.svg",
-    "static/media/Github.svg": "/static/media/Github.f68ebffb1037b78c3a9963194284688e.svg",
-    "static/media/LinkedIn.svg": "/static/media/LinkedIn.a236a02cbeb24525fd3bcf55fc6e41c6.svg",
-    "index.html": "/index.html",
-    "main.c000c91f.css.map": "/static/css/main.c000c91f.css.map",
-    "main.7f656ec7.js.map": "/static/js/main.7f656ec7.js.map"
+    "main.css": "/rttTest/static/css/main.c000c91f.css",
+    "main.js": "/rttTest/static/js/main.ea4d3cf2.js",
+    "static/media/speaker.jpg": "/rttTest/static/media/speaker.5ded7f34107f7aeb9d68.jpg",
+    "static/media/simplifiedLinuxFamily.png": "/rttTest/static/media/simplifiedLinuxFamily.02beba67fa0dcc4c45b6.png",
+    "static/media/winner-two.jpg": "/rttTest/static/media/winner-two.34b6797e61df0dc47790.jpg",
+    "static/media/winner-one.jpg": "/rttTest/static/media/winner-one.42dbd910470cf45dc37c.jpg",
+    "static/media/Instagram.svg": "/rttTest/static/media/Instagram.f19834e51679ce931f126f2b526d11f5.svg",
+    "static/media/Discord.svg": "/rttTest/static/media/Discord.27583b533952833679e4badca4e9e2a4.svg",
+    "static/media/Github.svg": "/rttTest/static/media/Github.f68ebffb1037b78c3a9963194284688e.svg",
+    "static/media/LinkedIn.svg": "/rttTest/static/media/LinkedIn.a236a02cbeb24525fd3bcf55fc6e41c6.svg",
+    "index.html": "/rttTest/index.html",
+    "main.c000c91f.css.map": "/rttTest/static/css/main.c000c91f.css.map",
+    "main.ea4d3cf2.js.map": "/rttTest/static/js/main.ea4d3cf2.js.map"
   },
   "entrypoints": [
     "static/css/main.c000c91f.css",
-    "static/js/main.7f656ec7.js"
+    "static/js/main.ea4d3cf2.js"
   ]
 }
