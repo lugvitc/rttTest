@@ -14,31 +14,31 @@ import LearnLinux from './pages/learnLinux/learnLinux';
 import RescueTheTux from './pages/rescueTheTux/home';
 
 const pages = [
-  {
-    title: 'Home',
-    link: '/',
-    component: <Home />,
-  },
-  {
-    title: 'Events',
-    link: '/events',
-    component: <Events />,
-  },
-  {
-    title: 'Learn Linux',
-    link: '/learn-linux',
-    component: <LearnLinux />,
-  },
-  {
-    title: 'Rescue the Tux',
-    link: '/rescue-the-tux',
-    component: <RescueTheTux />,
-  }
-  //, {
-  //     title: 'Recruitment 2022',
-  //     link: '/recruitment',
-  //     component: <UserForm />
-  // } 
+    /*{
+        title: 'Home',
+        link: '/',
+        component: <Home />
+    },
+    {
+        title: 'Events',
+        link: '/events',
+        component: <Events />
+    },
+    {
+        title: 'Learn Linux',
+        link: '/learn-linux',
+        component: <LearnLinux />
+    },*/
+    {
+        title: 'Rescue Tux',
+        link: '/',
+        component: <RescueTheTux />
+    }
+    //, {
+    //     title: 'Recruitment 2022',
+    //     link: '/recruitment',
+    //     component: <UserForm />
+    // }
 ];
 
 ReactDOM.render(
